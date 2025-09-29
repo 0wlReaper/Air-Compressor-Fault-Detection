@@ -1,0 +1,34 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Features CSV (optional, you may want to include it)
+features/features.csv
+
+# Models (optional if you want to version your trained model)
+models/fault_detector.pkl
+models/scaler.pkl
+
+# Ignore all zip files in data except the ones you force add
+data/*.zip
